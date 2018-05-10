@@ -24,7 +24,7 @@
   <!-- The trick is to put all your static files under the same directory and map the "default" servlet to it -->
   <servlet-mapping>
     <servlet-name>default</servlet-name>
-    <url-pattern>/app/*</url-pattern>
+    <url-pattern>/assets/*</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>default</servlet-name>
@@ -34,12 +34,21 @@
   <!-- Any other request will point to the "index.jsp" page. This way Backbone knows how to manage page transitions
    at the client side in case the user starts the application from a permalink. -->
   <servlet>
-    <servlet-name>application</servlet-name>
+    <servlet-name>login</servlet-name>
     <jsp-file>/index.jsp</jsp-file>
   </servlet>
   <servlet-mapping>
-    <servlet-name>application</servlet-name>
+    <servlet-name>login</servlet-name>
     <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>application</servlet-name>
+    <jsp-file>/main.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>application</servlet-name>
+    <url-pattern>/main/*</url-pattern>
   </servlet-mapping>
 
 </web-app>

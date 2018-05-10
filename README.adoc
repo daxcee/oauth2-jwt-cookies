@@ -1,6 +1,6 @@
-= mp-jwt-moviefun
+= login-form-example
 
-Microprofile JWT example based on the Movie Fun app
+JWT static form example based on the Movie Fun app
 
 == Running
 
