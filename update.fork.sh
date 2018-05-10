@@ -5,7 +5,7 @@ git checkout master
 
 #Ensure upstream is added to your fork
 #This will not be a problem if it exists
-git remote add upstream https://github.com/tomitribe/login-moviefun.git
+git remote add upstream https://github.com/tomitribe/login-form-example.git
 
 #Update fork of project to current master
 git fetch -v upstream
