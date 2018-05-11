@@ -7,3 +7,10 @@ JWT static form example based on the Movie Fun app
 ----
 mvn clean package DskipTests tomee:run
 ----
+
+== Mod_rewrite rules
+
+----
+RewriteRule "^/?moviefun-form/main(.*)$" "http://sagan:8010/moviefun-form/main$1" [QSA,P,NE,auth]
+RewriteRule "^/?moviefun-form/(.*)$" "http://sagan:8010/moviefun-form/$1" [QSA,P,NE]
+----
