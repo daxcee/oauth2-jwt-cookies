@@ -23,7 +23,7 @@ limitations under the License.
   <title>Moviefun</title>
   <link href="<c:url value='/webjars/font-awesome/5.0.10/web-fonts-with-css/css/fontawesome-all.min-jsf.css'/>" rel="stylesheet" type="text/css">
   <link href="<c:url value='/webjars/bootstrap/4.1.0/css/bootstrap.min.css'/>" rel="stylesheet" type="text/css">
-  <link href="<c:url value='/webjars/highlight.js/9.12.0/styles/xcode.css'/>" rel="stylesheet" type="text/css">
+  <link href="<c:url value='/webjars/highlightjs/9.8.0/styles/xcode.css'/>" rel="stylesheet" type="text/css">
   <link href="<c:url value='/assets/css/style.css'/>" rel="stylesheet" type="text/css">
   <script type="text/javascript">
     window.ux = window.ux || {};
