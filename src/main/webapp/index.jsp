@@ -39,7 +39,7 @@ limitations under the License.
             <article class="text-center">
                 <div class="row">
                     <div class="col-md-12">
-                        <form class="form-login" action="/oauth2/token" method="post">
+                        <form class="form-login" action="/oauth2/cookie" method="post">
                             <input type="hidden" name="ref" value="/moviefun-form/main/">
                             <img class="mb-2" src="assets/img/logo.png" alt="MovieChat logo">
                             <h1 class="h4 mb-4 font-weight-light pt-4">Sign In</h1>
