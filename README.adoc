@@ -1,11 +1,11 @@
-= login-form-example
+= oauth2-jwt-cookies
 
 JWT static form example based on the Movie Fun app
 
 == Running
 
 ----
-mvn clean package DskipTests tomee:run
+mvn clean package -DskipTests tomee:run
 ----
 
 == Mod_rewrite rules
