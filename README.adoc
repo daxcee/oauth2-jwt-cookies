@@ -1,16 +1,19 @@
-= login-form-example
+= oauth2-jwt-cookies
 
-JWT static form example based on the Movie Fun app
+JWT static form example based on the Movie Fun app. it will run on port 8010.
 
 == Running
 
 ----
-mvn clean package DskipTests tomee:run
+mvn clean package -DskipTests tomee:run
 ----
+
+The `oauth2-jwt-cookies/src/main/tomee/server.xml` file has the required configurations to run Tomee on port 8010.
 
 == Mod_rewrite rules
 
 ----
-RewriteRule "^/?moviefun-form/main(.*)$" "http://sagan:8010/moviefun-form/main$1" [QSA,P,NE,auth]
-RewriteRule "^/?moviefun-form/(.*)$" "http://sagan:8010/moviefun-form/$1" [QSA,P,NE]
+RewriteRule "^/?oauth2-jwt-cookies/main(.*)$" "http://localhost:8010/oauth2-jwt-cookies/main/$1" [QSA,P,NE,auth]
+
+RewriteRule "^/?oauth2-jwt-cookies/(.*)$" "http://localhost:8010/oauth2-jwt-cookies/$1" [QSA,P,NE]
 ----

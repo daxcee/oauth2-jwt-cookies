@@ -21,7 +21,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.superbiz</groupId>
-    <artifactId>login-form-example</artifactId>
+    <artifactId>oauth2-jwt-cookies</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>Login :: JWT</name>
@@ -36,7 +36,7 @@
 
     <build>
         <defaultGoal>install</defaultGoal>
-        <finalName>moviefun-form</finalName>
+        <finalName>oauth2-jwt-cookies</finalName>
 
         <plugins>
             <plugin>
@@ -68,9 +68,9 @@
                 <configuration>
                     <tomeeClassifier>plus</tomeeClassifier>
                     <tomeeVersion>${version.tomee}</tomeeVersion>
-                    <tomeeHttpPort>9999</tomeeHttpPort>
-                    <tomeeAjpPort>8999</tomeeAjpPort>
-                    <tomeeShutdownPort>9995</tomeeShutdownPort>
+                    <tomeeHttpPort>8010</tomeeHttpPort>
+                    <tomeeAjpPort>8019</tomeeAjpPort>
+                    <tomeeShutdownPort>8015</tomeeShutdownPort>
                     <reloadOnUpdate>true</reloadOnUpdate>
                     <forceReloadable>true</forceReloadable>
                     <args>-Xmx512m -XX:PermSize=256m</args>
