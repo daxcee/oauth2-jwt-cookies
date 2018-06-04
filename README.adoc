@@ -2,18 +2,20 @@
 
 JWT static form example based on the Movie Fun app. it will run on port 8010.
 
-== Running
+== Building and Running oauth2-jwt-cookies app
 
+Clean, build, package and run the project:
 ----
 mvn clean package -DskipTests tomee:run
 ----
 
-The `oauth2-jwt-cookies/src/main/tomee/server.xml` file has the required configurations to run Tomee on port 8010.
-
-== Mod_rewrite rules
-
+The login page is available at: 
 ----
-RewriteRule "^/?oauth2-jwt-cookies/main(.*)$" "http://localhost:8010/oauth2-jwt-cookies/main/$1" [QSA,P,NE,auth]
-
-RewriteRule "^/?oauth2-jwt-cookies/(.*)$" "http://localhost:8010/oauth2-jwt-cookies/$1" [QSA,P,NE]
+http://localhost:8010/oauth2-jwt-cookies
 ----
+
+* The `oauth2-jwt-cookies/src/main/tomee/server.xml` file has the required configurations to run Tomee on port 8010.
+* In order to see the application working, the application needs the interaction of an API Gateway to obtain the Access Token and Refresh Token. For more information you can check the following article that describes the setup and further instructions: <final Blog URL Here>
+
+
+
