@@ -15,7 +15,11 @@ http://localhost:8010/oauth2-jwt-cookies
 ----
 
 * The `oauth2-jwt-cookies/src/main/tomee/server.xml` file has the required configurations to run Tomee on port 8010.
-* In order to see the application working, the application needs the interaction of an API Gateway to obtain the Access Token and Refresh Token. For more information you can check the following article that describes the setup and further instructions: <final Blog URL Here>
+* In order to see the application working, the application needs the interaction of an API Gateway to obtain the Access Token and Refresh Token.
+For more information you can check the following file containing the article that describes the setup and further instructions: OAuth2_and_JWT_with_Cookies.pdf
 
+== Detailed instructions
+
+See OAuth2_and_JWT_with_Cookies.pdf
 
 
