@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+documentation:
+
+  - doc_root: 'README.adoc'
+    name: 'Examples'
+    display_name: 'OAuth 2.0 JWT with Cookies'
+    public_path: 'en/api-gateway/oauth2-jwt-cookies'
+    single_page: 'false'
