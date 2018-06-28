@@ -1,6 +1,8 @@
 = oauth2-jwt-cookies
 
-JWT static form example based on the Movie Fun app. it will run on port 8010.
+Passing JWTs as cookies is awesome for legacy applications not written in JavaScript.
+
+JWT static form example based on the Movie Fun app. it will run on port 8010.  
 
 == Building and Running oauth2-jwt-cookies app
 
